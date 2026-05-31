@@ -1,7 +1,8 @@
 from telegram import Update
 from telegram.ext import Application, MessageHandler, ContextTypes, filters
 
-TOKEN = "TOKENNI_KEYIN_QOYAMIZ"
+TOKEN = "8939218526: AAGsNc08cgzq1hUrQvw4
+oTXlwYuBj-1zjp4"
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Bot ishlayapti!")
